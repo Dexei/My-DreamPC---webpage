@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CS PROJECT</title>
+    </head>
+    <body style="margin: 0px;">
+    <link rel="stylesheet" href="CS214 project.css">
+    <link rel="stylesheet" href="modal.css">
+    <script src="CS214.js"></script>
+        <div id="con1">
+            <p>Lorenz Dexamil T. Genita</p>
+            <img id="profile" src="https://drive.google.com/uc?export=download&id=1mQHlWTO7FFhoywYjhN0qTJxTLFHbhJ4p" alt="">
+        </div>
+        <div id="myWeb">
+            My DREAM <br>
+            PC BUILD
+        </div>
+        <div id="con2">
+            <img id="background1" src="https://drive.google.com/uc?export=download&id=1FjbwzuZJMpJniQueZau1_jfg9xC6uVqB" alt="">
+        </div>
+        <div class="pcSpecs_peripherals">
+            SYSTEM UNIT SPECS
+        </div>
+        <div class="con3">
+            <div onclick="getData('cpu',cpuSPECS)" class="Specs">
+                <!--<img class="pic" src="" alt="">-->
+                <img id="cpu" class="pic" src="https://drive.google.com/uc?export=download&id=15jjo4_J7W7GBYcQhIDxnNmi4FkEFc3Et" alt="">
+                <p>Intel Core i9-11900K Processor </p>
+            </div>
+            <div onclick="getData('mobo',moboSPECS)" class="Specs">
+                <img id="mobo" class="pic" src="https://drive.google.com/uc?export=download&id=1LEfIgld2t7awSJIU8T8tlWx0dQzOd4FA" alt="">
+                <p>ASUS ROG Maximus XIII Hero Z590 ATX</p>
+            </div>
+            <div onclick="getData('psu',psuSPECS)" class="Specs">
+                <img id="psu" class="pic" src="https://drive.google.com/uc?export=download&id=1R4E4fK6wVYn0Kdv0qGUlwRWN7X3LxH4b" alt="">
+                <p>
+                    PSU: ROG Thor 1000W Platinum II EVA Edition
+                </p>
+            </div>
+            <div onclick="getData('ram',ramSPECS)" class="Specs">
+                <img id="ram" class="pic" src="https://drive.google.com/uc?export=download&id=1owTCKwLn30wh8plWVnz1q106JwXRRuFh" alt="">
+                <p>
+                    Memory: 32GB (2x16GB) DDR4-3600 G.Skill Trident Z RGB RAM
+                </p>
+            </div>
+            <div onclick="getData('gpu',gpuSPECS)" class="Specs">
+                <img id="gpu" class="pic" src="https://drive.google.com/uc?export=download&id=1ZBjiaQdZhgKUqHcP4nLtXiVHaYaY9XFS" alt="">
+                <p>
+                    GPU: ROG STRIX GeForce RTX 3080 12GB
+                    EVA EDITION
+                </p>
+            </div>
+            <div onclick="getData('ssd',ssdSPECS)" class="Specs">
+                <img id="ssd" class="pic" src="https://drive.google.com/uc?export=download&id=1kb88ceIK7RTr8bBwSzEN1mbLPtZ_Fk7L" alt="">
+                <p>
+                    Storage 1: 1TB WD Black SN850 NVMe M.2 SSD
+                </p>
+            </div>
+            <div onclick="getData('hdd',hddSPECS)" class="Specs">
+                <img id="hdd" class="pic" src="https://drive.google.com/uc?export=download&id=1-JQ_qEY0ERDG2axh6gU0M3NNLovy1z9Y" alt="">
+                <p>
+                    Storage 2: WD 5TB SATA Internal Hard Drive
+                </p>
+            </div>
+            <div onclick="getData('case',caseSPECS)" class="Specs">
+                <img id="case" class="pic" src="https://drive.google.com/uc?export=download&id=1GA_NDhIt-WT0m2cs_G3lpbxt6y6lsgsa" alt="">
+                <p>
+                    Case: ASUS ROG Strix Helios ATX Mid Tower Case
+                </p>
+            </div>
+            <div onclick="getData('cooler',coolerSPECS)" class="Specs">
+                <img id="cooler" class="pic" src="https://drive.google.com/uc?export=download&id=1f8QjpE1VbdY0nTHryrs4yXcw6Z9B9XLf" alt="">
+                <p>
+                    Cooling: ASUS ROG Ryujin 360 AIO ARGB Liquid CPU Cooler
+                </p>
+            </div>
+            <div onclick="getData('fans',fanSPECS)" class="Specs">
+                <img id="fans" class="pic" src="https://drive.google.com/uc?export=download&id=1GJkJxsh2faDa4WzkjsoH2xJeOHCilMCJ"alt="">
+                <p>
+                    Corsair LL120 RGB 120mm with Lighting Node PRO Triple Pack
+                </p>
+            </div>
+        </div>
+        <div class="pcSpecs_peripherals">
+            GAMING PERIPHERALS
+        </div>
+        <div class="con4">
+            <div onclick="getData('keyboard',keyboardSPECS)" class="Specs">
+                <img id="keyboard" class="pic" src="https://drive.google.com/uc?export=download&id=1wR0zSId9ofrrqFxfxK-e0i94S0dLF7Hv" alt="">
+                <p>
+                    ROG Strix Scope II RX
+                </p>
+            </div>
+            <div onclick="getData('monitor',monitorSPECS)" class="Specs">
+                <img id="monitor" class="pic" src="https://drive.google.com/uc?export=download&id=1wVu0QY-HfGlVSwXIsNezKpYSynsnavBd" alt="">
+                <p>
+                    ROG Strix XG35VQ Monitor
+                </p>
+            </div>
+            <div onclick="getData('mouse',mouseSPECS)" class="Specs">
+                <img id="mouse" class="pic" src="https://drive.google.com/uc?export=download&id=1z786YkueycCk9XAi3qTyP6hPGDmznob0" alt="">
+                <p>
+                    ROG Gladius III Wireless
+                </p>
+            </div>
+            <div onclick="getData('mousepad',mousepadSPECS)" class="Specs">
+                <img id="mousepad" class="pic" src="https://drive.google.com/uc?export=download&id=1kicdI5oybkDomj76U66AILjBUC6b01OW" alt="">
+                <p>
+                    NEON X RGB Gaming Mouse Pad
+                </p>
+            </div>
+            <div onclick="getData('webcam',webcamSPECS)" class="Specs">
+                <img id="webcam" class="pic" src="https://drive.google.com/uc?export=download&id=1RSiVIlk7ylbVjAv_F2mtRe70quP8WRXB" alt="">
+                <p>
+                    LOGITECH BRIO 4K WEBCAM
+                </p>
+            </div>
+            <div onclick="getData('headset',headsetSPECS)" class="Specs">
+                <img id="headset" class="pic" src="https://drive.google.com/uc?export=download&id=1eh_tlb79dlL0d-WMOZv20qqWbYzJ105M" alt="">
+                <p>
+                    ROG Delta RGB gaming headset
+                </p>
+            </div>
+            <div onclick="getData('mic',micSPECS)" class="Specs">
+                <img id="mic" class="pic" src="https://drive.google.com/uc?export=download&id=1WhaP5iCH-2JR7HCEdDCnyVZsXBfeKg6a" alt="">
+                <p>
+                    HyperX QuadCast S - USB Microphone
+                </p>
+            </div>
+            <div onclick="getData('soundbar',soundbarSPECS)" class="Specs">
+                <img id="soundbar" class="pic" src="https://drive.google.com/uc?export=download&id=14cB3rQ0l5G7qqPMEi0CUmexqvu6pNimi" alt="">
+                <p>
+                    Razer Leviathan V2 Pro
+                </p>
+            </div>
+        </div>
+        <div class="modal">
+            <div class="popup">
+            </div>
+        </div>
+    </body>
+</html>
